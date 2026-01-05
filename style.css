@@ -1,0 +1,30 @@
+body{
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#f1f5f9;
+}
+
+.container{
+  display:flex;
+  gap:20px;
+}
+
+#item{
+  padding:15px;
+  background:#38bdf8;
+  color:white;
+  cursor:grab;
+  border-radius:6px;
+}
+
+#box{
+  width:150px;
+  height:80px;
+  border:2px dashed #64748b;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
